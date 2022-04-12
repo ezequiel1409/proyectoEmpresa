@@ -12,23 +12,57 @@ section{
 }
 li{
     list-style: none;
-}.content-Nav{
-    
 }
-.content-Nav ul li{
+.contentNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    padding: 0rem;
+}
+.contentNav ul li{
     border: 1px solid black;
-    margin: 1rem;
+    margin: 0.5rem;
+    padding: 0.3rem;
     background-color: #002c68;
+    width: 100%;
 
 }
-.content-Nav ul li a{
+.contentNav ul li a{
     text-decoration: none;
     color: white;
 
 }
 .contentBoxTitulo{
     background-color: #002c68;
+    padding: 1rem;
+
+}
+#contentBoxH1{
+    font-size: 2.6rem;
+    font-weight: bolder;
+}
+#contentBoxH2{
+    color: #002c68;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.contentBoxTitulo a{
+    text-decoration: none;
 }
 .contentBoxTitulo a img{
-    padding: 1rem;
+    width: 100%;
+}
+.contentBoxMail {
+    align-items: center;
+
+}
+.contentBoxMail a{
+    padding: 1.3rem;
+    background-color: #002c68;
+    color: white;
+    text-decoration: none;
+}
+#footer{
+    background-color: #6c757d;
 }
