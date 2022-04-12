@@ -6,6 +6,23 @@
 nav {
     background-color: #f0f0f0;
 }
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: start;
+    padding: 0.5rem 1rem;
+}
+.button-black{
+        background-color: black;
+        color: white;
+}
 .row{
     width: 100%;
 }
