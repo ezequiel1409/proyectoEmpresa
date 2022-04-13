@@ -3,7 +3,7 @@
     font-family: 'Raleway', 'Lucida Sans';
 }
 section{
-    background-image: url(images/imgFondo.jpg);
+    background-image: url(images/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,10 +23,11 @@ li{
 }
 .contentNav ul li{
     border: 1px solid black;
-    margin: 0.5rem;
+    margin: 0.3rem;
     padding: 0.3rem;
     background-color: #002c68;
     width: 100%;
+    font-size: x-small;
 
 }
 .contentNav ul li a{
@@ -34,13 +35,13 @@ li{
     color: white;
 
 }
-.contentBoxTitulo{
+/* .contentBoxTitulo{
     background-color: #002c68;
     padding: 1rem;
 
-}
+} */
 #contentBoxH1{
-    font-size: 2.9rem;
+    font-size: 3.5rem;
     font-weight: bolder;
 }
 #contentBoxH2{
@@ -52,7 +53,7 @@ li{
     text-decoration: none;
 }
 .contentBoxTitulo a img{
-    width: 100%;
+    width: 70%;
 }
 .contentBoxMail {
     margin-top: 1.6rem;
