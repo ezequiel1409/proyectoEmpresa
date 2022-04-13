@@ -3,7 +3,7 @@
     font-family: 'Raleway', 'Lucida Sans';
 }
 section{
-    background-image: url(images/fondo.jpg);
+    background-image: url(images/imagenFondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,13 +17,13 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-top: 1rem;
+    margin-right: -0.7rem;
     padding: 0rem;
-    margin-left: 1rem;
 }
 .contentNav ul li{
     border: 1px solid black;
-    margin: 0.3rem;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
     padding: 0.3rem;
     background-color: #002c68;
     width: 55px;
@@ -35,13 +35,9 @@ li{
     color: white;
 
 }
-/* .contentBoxTitulo{
-    background-color: #002c68;
-    padding: 1rem;
 
-} */
 #contentBoxH1{
-    font-size: 3.5rem;
+    font-size: 4.6rem;
     font-weight: bolder;
 }
 #contentBoxH2{
@@ -53,16 +49,21 @@ li{
     text-decoration: none;
 }
 .contentBoxTitulo a img{
-    width: 70%;
+    width: 20%;
 }
 .contentBoxMail {
     margin-top: 1.6rem;
 }
 .contentBoxMail a{
-    padding: 1.3rem;
     background-color: #002c68;
     color: white;
     text-decoration: none;
+    font-size: 28.4px;
+    width: 71px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 #footer{
     background-color: #6c757d;
@@ -73,4 +74,29 @@ li{
 }
 footer address{
     color: #a9a9a7;
+}
+@media(min-width: 300px) and (max-width: 500px){
+    body{
+        width: 131%;
+    }
+    section{
+        width: 100%;
+        height: 115vh;
+    }
+    .contentBoxTitulo a img {
+        width: 60%;
+    }
+    #mktIMG{
+        width: 80%;
+    }
+    #contentBoxH1 {
+        font-size: 67px;
+    }
+    .contentBoxMail a {
+        font-size: 22.5px;
+    }
+    #footer{
+        height: 143px;
+    }
+
 }
