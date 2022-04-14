@@ -77,7 +77,7 @@ footer address{
 }
 @media(min-width: 300px) and (max-width: 500px){
     body{
-        width: 131%;
+        width: 100%;
     }
     section{
         width: 100%;
