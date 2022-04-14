@@ -25,9 +25,10 @@ li{
     margin-top: 0.3rem;
     margin-left: 1rem;
     padding: 0.3rem;
-    background-color: #002c68;
-    width: 55px;
+    background-color: #012e64;
+    width: 39px;
     font-size: x-small;
+    font-weight: 600;
 
 }
 .contentNav ul li a{
