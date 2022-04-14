@@ -80,8 +80,9 @@ footer address{
         width: 100%;
     }
     section{
-        width: 100%;
-        height: 115vh;
+           width: 100%;
+    height: 115vh;
+    background-position: 0;
     }
     .contentBoxTitulo a img {
         width: 60%;
