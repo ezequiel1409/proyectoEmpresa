@@ -3,7 +3,7 @@
     font-family: 'Raleway', 'Lucida Sans';
 }
 section{
-    background-image: url(images/imagenFondo.png);
+    background-image: url(images/Fondo-web-LaHo-2500-120dpi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -40,6 +40,7 @@ li{
 #contentBoxH1{
     font-size: 4.6rem;
     font-weight: bolder;
+    text-shadow: 0.1em 0.1em 0.3em #002c68;
 }
 #contentBoxH2{
     color: #002c68;
