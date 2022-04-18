@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+*{
+    font-family: 'Raleway', 'Lucida Sans';
+}
+section{
+    background-image: url(images/Fondo-web-LaHo-azul-2500-120dpi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 836px;
+}
+li{
+    list-style: none;
+}
+.contentNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: -0.7rem;
+    padding: 0rem;
+}
+.contentNav ul li{
+    border: 1px solid black;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+    padding: 0.3rem;
+    background-color: #012e64;
+    width: 39px;
+    font-size: x-small;
+    font-weight: 600;
+
+}
+.contentNav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+#mktingyNegocios{
+    width: 40%;
+}
+#contentBoxH1{
+    border: 2px solid white;
+    padding: 0.5rem;
+    /* font-size: 3.2rem; */
+    font-weight: bolder;
+    text-shadow: 0.1em 0.1em 0.3em #002c68;
+}
+#contentBoxH2{
+    color: #002c68;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.contentBoxTitulo a{
+    text-decoration: none;
+}
+.contentBoxTitulo a img{
+    width: 65%;
+}
+.contentBoxMail {
+    margin-top: 1.6rem;
+}
+.contentBoxMail a{
+    /* background-color: #002c68; */
+    color: white;
+    text-decoration: none;
+    font-size: 28.4px;
+    width: 71px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#footer{
+    background-color: #42454a;
+    height: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+footer address{
+    color: #a9a9a7;
+}
+@media(min-width: 300px) and (max-width: 500px){
+    body{
+        width: 100%;
+    }
+    section{
+           width: 100%;
+           height: 87vh;
+   /* background-position: 0;*/
+    }
+    .contentBoxTitulo a img {
+        width: 100%;
+    }
+    #mktingyNegocios{
+        width: 64%;
+    }
+    #contentBoxH1 {
+        font-size: 18px;
+    }
+    .contentBoxMail a {
+        font-size: 16px;
+    }
+    #footer{
+        height: 83px;
+    }
+
+}
